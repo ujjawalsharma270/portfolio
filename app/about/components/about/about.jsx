@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Me1 from "@/public/image/ujjawal-pc.png";
-import Me2 from "@/public/image/ujjawal-pc.png";
+import Me1 from "@/public/image/Ujjawal-pc.png";
+import Me2 from "@/public/image/Ujjawal-pc.png";
 import Hr from "@/components/Hr";
 
 function Title() {
