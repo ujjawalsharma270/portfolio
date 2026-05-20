@@ -1,0 +1,289 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Intervyou AI",
+      "desc": [
+        "Intervyou is an AI-driven SaaS platform designed to bridge the gap between education and employment by providing realistic interview simulations. The platform features a Gen AI engine that analyzes user responses and CVs to provide hyper-personalized feedback and material recommendations.",
+        "Built to scale, the system incorporates a gesture analysis module and a secure token-based payment gateway. It currently serves over 3,000 users and is supported by Google for Startups and NVIDIA Inception."
+      ],
+      "year": "2025",
+      "preview": "https://www.intervyou.me",
+      "code": "",
+      "thumbnail": "/image/projects/web/intervyou/intervyou-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/intervyou/intervyou-1.png",
+        "/image/projects/web/intervyou/intervyou-2.png",
+        "/image/projects/web/intervyou/intervyou-3.png"
+      ],
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "Prisma",
+        "MySQL",
+        "Gemini API",
+        "GCP"
+      ],
+      "slug": "intervyou",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "VendorIQ",
+      "desc": [
+        "VendorIQ is an AI-powered vendor intelligence platform that automates vendor research, comparison, and evaluation workflows. Built to eliminate hours of manual research, it leverages LLM pipelines and structured data extraction to generate comprehensive vendor profiles and competitive analyses.",
+        "The platform integrates multi-source data aggregation, intelligent summarization, and side-by-side comparison capabilities, helping procurement teams make faster, data-driven decisions with high confidence."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/VendorIQ-Public",
+      "thumbnail": "/image/placeholder/placeholder.png",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "Next.js",
+        "LangChain",
+        "OpenAI API",
+        "MongoDB",
+        "Redis",
+        "TypeScript"
+      ],
+      "slug": "vendoriq",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "QuantumDoc — AI Document Analysis Platform",
+      "desc": [
+        "QuantumDoc is an agentic RAG platform that enables deep, multi-document analysis using a 3-phase pipeline: BM25 + semantic retrieval, self-critique, and refined answer generation. The system supports 19+ LLM providers with PII/toxicity guardrails.",
+        "Achieves sub-80ms vector search at 85%+ context precision via RAGAS evaluation. Built for enterprise use cases requiring accurate, explainable document intelligence at scale."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/QuantumPDF---AI-Document-Analysis-Platform",
+      "thumbnail": "/image/placeholder/placeholder.png",
+      "images": [],
+      "tech": [
+        "Next.js",
+        "Node.js",
+        "LangChain",
+        "LangGraph",
+        "Pinecone",
+        "Redis",
+        "TypeScript",
+        "RAGAS"
+      ],
+      "slug": "quantumdoc",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "CastIQ — AI Learning Platform",
+      "desc": [
+        "CastIQ is a production-grade AI learning platform deployed on AWS EC2 with Nginx. BullMQ async job processing and Redis TTL caching cut repeat-request latency by 70%. The Kafka-driven pipeline serves 650+ users and 12 paying customers at sub-300ms response.",
+        "The platform features intelligent content generation, personalized learning paths, and adaptive assessments powered by multi-model AI pipelines."
+      ],
+      "year": "2025",
+      "preview": "https://castiq.tech/",
+      "code": "",
+      "thumbnail": "/image/castiq.png",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "Next.js",
+        "MongoDB",
+        "Redis",
+        "BullMQ",
+        "Kafka",
+        "AWS EC2",
+        "AWS S3"
+      ],
+      "slug": "castiq",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "CineVision — Distributed Streaming Platform",
+      "desc": [
+        "CineVision is a high-performance, distributed streaming platform designed to handle large-scale concurrent traffic with low latency and strong reliability guarantees. Architected using a microservices-based approach, enabling independent scaling and fault isolation across core services.",
+        "A centralized gateway layer manages routing, security, and request orchestration, while an event-driven architecture enables asynchronous communication between services. Optimized to support 50K+ concurrent users with sub-second response times via efficient caching and circuit breakers."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Spring Boot 3.4",
+        "Kafka",
+        "Redis",
+        "PostgreSQL",
+        "React.js 18",
+        "Docker",
+        "Microservices"
+      ],
+      "slug": "cinevision",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Banking Microservices — Fintech",
+      "desc": [
+        "A secure, high-performance banking platform using a microservices architecture with a strong emphasis on clean design principles and separation of concerns. Structured around CQRS, enabling efficient read/write operations and improved scalability.",
+        "A hybrid data strategy using both relational and NoSQL databases optimizes transactional integrity and flexible data access patterns. Security is a core focus with robust authentication and role-based access control ensuring safe handling of sensitive financial data. High test coverage and automated deployment pipelines enable reliable, zero-downtime releases."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        ".NET 8",
+        "CQRS",
+        "MediatR",
+        "EF Core",
+        "SQL Server",
+        "MongoDB",
+        "Docker"
+      ],
+      "slug": "banking-microservices",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "SyntaxMeets — Collaborative IDE",
+      "desc": [
+        "SyntaxMeets is a real-time collaborative IDE using Socket.IO over Redis pub-sub with Nginx WebSocket proxying. Kubernetes HPA handles 300+ concurrent sessions at sub-50ms sync latency.",
+        "Features include real-time code sharing, syntax highlighting, multi-language support, room-based sessions, and live cursor tracking."
+      ],
+      "year": "2023",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "Socket.IO",
+        "Redis",
+        "Nginx",
+        "Docker",
+        "Kubernetes"
+      ],
+      "slug": "syntaxmeets",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "AgriContractor",
+      "desc": [
+        "AgriContractor is a platform connecting farmers with agricultural contractors, streamlining the process of finding and hiring skilled labor for farming operations. The platform handles contract management, payment processing, and dispute resolution.",
+        "Built with a focus on rural accessibility, the platform supports offline-first functionality and low-bandwidth optimizations to serve users in areas with limited connectivity."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/AgriContractor",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express.js",
+        "TypeScript"
+      ],
+      "slug": "agricontractor",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Compliance Copilot",
+      "desc": [
+        "Compliance Copilot is an AI-powered compliance assistant that automates regulatory document analysis, gap identification, and compliance reporting. It uses RAG pipelines to provide accurate, citation-backed answers to compliance queries.",
+        "Built for legal and compliance teams, it dramatically reduces the time required for regulatory research and ensures up-to-date compliance monitoring across multiple regulatory frameworks."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/Compliance-copilot",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Python",
+        "LangChain",
+        "RAG Pipelines",
+        "OpenAI API",
+        "Pinecone",
+        "FastAPI"
+      ],
+      "slug": "compliance-copilot",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "LegalRAG Engine",
+      "desc": [
+        "LegalRAG Engine is a specialized retrieval-augmented generation system designed for legal document analysis. It provides accurate, source-cited answers to legal queries by indexing case law, statutes, and contracts.",
+        "The system features advanced chunking strategies optimized for legal text, hybrid retrieval combining keyword and semantic search, and a self-evaluation loop for answer quality assurance."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/LegalRAG-Engine",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Python",
+        "LangGraph",
+        "LangChain",
+        "Pinecone",
+        "OpenAI API",
+        "FastAPI",
+        "RAGAS"
+      ],
+      "slug": "legalrag-engine",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "oss-ratelimit — npm Library",
+      "desc": [
+        "A distributed rate limiting library for Node.js supporting Fixed Window, Sliding Window, and Token Bucket algorithms via atomic Redis Lua scripts. Supports Express, Node.js, and Next.js.",
+        "Achieves 400+ weekly downloads on npm. Designed for production use with zero-dependency core, TypeScript support, and comprehensive test coverage."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "TypeScript",
+        "Redis",
+        "npm"
+      ],
+      "slug": "oss-ratelimit",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Signature Injection Engine",
+      "desc": [
+        "A high-performance document signature injection engine that programmatically embeds digital signatures into PDF and document workflows. Supports batch processing, multiple signature formats, and audit trail generation.",
+        "Built for enterprise document automation with support for certificate-based signatures, timestamp authorities, and compliance with international digital signature standards."
+      ],
+      "year": "2023",
+      "preview": "",
+      "code": "https://github.com/UJJAWAL-SHARMA/Signature-Injection-Enginejs",
+      "thumbnail": "/image/placeholder/placeholder.webp",
+      "images": [],
+      "tech": [
+        "Node.js",
+        "TypeScript",
+        "PDF Processing",
+        "Digital Signatures"
+      ],
+      "slug": "signature-injection-engine",
+      "category": [1]
+    }
+  ]
+}
