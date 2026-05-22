@@ -120,7 +120,7 @@ const MyPage = () => {
 							}}>
 							<Button variation="primary">
 								<Link
-									href={"/docs/cv.pdf"}
+									href={"/image/ujjawal_cv (1).pdf"}
 									target="_blank"
 									rel="noopener noreferrer"
 									download>
